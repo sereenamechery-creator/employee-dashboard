@@ -172,39 +172,29 @@ The dashboard consumes real employee records from JSONPlaceholder:
 
 Follow these steps to upload this project to your GitHub account:
 
-### 1. Initialize Git in the Project Folder
-In the `employee-dashboard` terminal:
-```bash
-git init
-```
-
-### 2. Stage and Commit All Files
-```bash
-git add .
-git commit -m "Initial commit: Complete Employee Management Dashboard React App"
-```
-
-### 3. Create a New Repository on GitHub
+### 1. Create a New Repository on GitHub
 1. Log into your account at [GitHub.com](https://github.com/).
 2. Click the **+** (plus) icon in the top right corner and select **New repository**.
-3. Name your repository (e.g., `employee-management-dashboard`).
+3. Name your repository `employee-dashboard`.
 4. Keep it **Public**.
 5. Leave "Add a README file" **unchecked** (we already created a complete one).
 6. Click **Create repository**.
 
-### 4. Link and Push to GitHub
-Copy the commands shown on GitHub under **"…or push an existing repository from the command line"**:
-```bash
-git branch -M main
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/employee-management-dashboard.git
+### 2. Push the Existing Local Repository
+The local Git repository is already on the `main` branch, and its `origin` remote is configured as:
+```text
+https://github.com/sereenamechery-creator/employee-dashboard.git
+```
+After creating the GitHub repository, run this command from the project folder in PowerShell:
+```powershell
 git push -u origin main
 ```
-*(Replace `<YOUR_GITHUB_USERNAME>` with your actual GitHub username).*
+Do not run `git init` or `git remote add origin`; both are already set up.
 
-### 5. Submit Your Project
-Once pushed, copy the repository link:
+### 3. Submit Your Project
+Once pushed, share the repository link:
 ```text
-https://github.com/<YOUR_GITHUB_USERNAME>/employee-management-dashboard
+https://github.com/sereenamechery-creator/employee-dashboard
 ```
 and submit it as your college assignment link!
 
